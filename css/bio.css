@@ -1,0 +1,90 @@
+/*DOCUMENTO CSS*/
+
+body {
+    font-family: 'Noto Sans Japanese', sans-serif;
+    background-color: #e0e0e0;
+    color: #4c4c4c;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    font-family: 'Rubik 80s Fade';
+    background-color: #000000;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Zen Dots';
+    text-align: center;
+    font-size: 25px;
+    color: #110305;
+    margin-top: 20px;
+}
+
+.biografia {
+    padding: 30px;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+}
+
+.musica, .video {
+    padding: 30px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.imagenes img {
+    width: 50%;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    font-family: 'Archivo Black';
+    font-size: 15px;
+    background-color: #020202;
+    color: white;
+    text-align: left;
+}
+
+td {
+    font-family: 'Noto Sans Japanese', sans-serif;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+audio {
+    width: 100%;
+}
+
+.pie { 
+    color: rgb(92, 91, 91);
+    text-align: center;
+  }

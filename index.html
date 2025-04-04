@@ -1,14 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="@rubysita"
-    <title>Mis prácticas web</title>
+    <meta name="author" content="@rubysita">
+    <title>Mis prácticas web ♡₊˚</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--MI CSS-->
+    <style>
+
+        body {
+            background-color: white;
+            color: #333;
+            font-family: 'Montserrat', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            color: #ff6b9d;
+            font-size: 2.5em;
+            margin-bottom: 0.3em;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #b48ead;
+            font-size: 1.4em;
+            font-weight: 500;
+            text-align: center;
+            position: relative;
+        }
+        
+        ol {
+            padding: 0;
+            list-style-type: none;
+            counter-reset: item-counter;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        
+        li {
+            counter-increment: item-counter;
+            margin: 12px 0;
+            padding: 15px 30px 15px 50px;
+            background-color: #fafafa;
+            border-radius: 10px;
+            transition: all 0.3s;
+            width: 80%;
+            max-width: 500px;
+            text-align: left;
+            position: relative;
+            box-shadow: 0 3px 6px rgba(255, 182, 193, 0.1);
+            border: 1px solid #f0f0f0;
+        }
+        
+        li:before {
+            content: counter(item-counter);
+            color: #ff6b9d;
+            font-weight: bold;
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2em;
+        }
+        
+        li:hover {
+            transform: translateX(8px);
+            background-color: #fff5f9;
+            box-shadow: 0 5px 12px rgba(255, 182, 193, 0.15);
+        }
+        
+        a {
+            color: #5a3e3e;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            padding: 2px 4px;
+        }
+        
+        .link-decoration {
+            margin-left: 8px;
+            color: #d9b3ff;
+            font-size: 0.9em;
+        }
+        
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #b48ead;
+            padding: 20px;
+        }
+        
+        .footer-decoration {
+            letter-spacing: 3px;
+            color: #ffb6c1;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-   <h1>hola mundo :3</h1> 
-
-
+    <h1>Mis prácticas web ♡₊˚</h1>
+       <h2>Unidad 2</h2>
+    
+    <ol>
+        <li><a href="u2/1encabezados.html">Encabezados</a></li>
+        <li><a href="u2/2listasyenlaces.html">Listas y enlaces</a></li>
+        <li><a href="u2/3tablas.html">Tablas</a></li>
+        <li><a href="u2/4audioyvideo.html">Audio y video</a></li>
+        <li><a href="u2/5copy.html">Copy</a></li>
+        <li><a href="u2/6articulo.html">Articulo</a></li>
+        <li><a href="u2/7bio.html">Biografía</a></li>
+        <li><a href="u2/8flexbox.html">Flexbox</a></li>
+        <li><a href="u2/9form.html">Form</a></li>
+        <li><a href="u2/cv.html">Curriculum Vitae</a></li>
+    </ol>
+    
+    <footer>
+        <div class="footer-decoration">✧･ﾟ: *✧･ﾟ:*</div>
+        Copyright © 2023 @rubysita ♡
+        <div class="footer-decoration">*:･ﾟ✧*:･ﾟ✧</div>
+    </footer>
 </body>
 </html>
