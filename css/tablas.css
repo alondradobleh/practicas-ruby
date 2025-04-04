@@ -1,0 +1,87 @@
+/*DOCUMENTO CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ponomar", system-ui;
+    background-color: #fff9fd;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: #ff85b3;
+    padding: 20px 0;
+    font-size: 2.2rem;
+    letter-spacing: -0.5px;
+    text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.3);
+}
+
+.cabecera {
+    margin-bottom: 32px;
+    background-color: #fff0f5;
+    padding: 15px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.1);
+}
+
+.tablas {
+    background-color: rgb(254, 240, 255);
+    min-height: 1px;
+    padding: 16px 0;
+    margin-bottom: 32px;
+    border-radius: 15px;
+    border: 2px dashed #ffb6c1;
+}
+
+div.tablas {
+    background-color: rgb(255, 250, 181);
+    margin-bottom: 80px;
+    border-radius: 15px;
+    border: 2px dotted #fffacd;
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.1);
+}
+
+.tablas table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+
+.tablas td {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.pie {
+    background-color: rgb(240, 255, 242);
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #88c9a1;
+    border-top: 2px solid #d4edda;
+    margin-top: auto;
+}
+
+.pie::before {
+    content: "✦";
+    color: #ffb6c1;
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.tablas td:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+    background-color: #fffef7;
+}
